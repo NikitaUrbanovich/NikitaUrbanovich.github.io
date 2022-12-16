@@ -15,3 +15,18 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 })
+let a = 2;
+let b = 5;
+class Rectangle {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+}
+class Circle {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+}
+let v = 10;
