@@ -1,1 +1,1 @@
-"use strict";var nav_links=document.querySelectorAll(".nav-link");for(i=0;nav_links.length>i;i++)nav_links[i].addEventListener("click",function(){var i=actives[0];i&&i.classList.add("active"),i!==this&&this.classList.remove("active")});
+"use strict";
