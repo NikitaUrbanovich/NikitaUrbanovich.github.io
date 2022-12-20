@@ -1,1 +1,1 @@
-"use strict";var navLinks=document.querySelectorAll(".navbar-nav .nav-item .nav-link");console.log(navLinks);for(var i=0;i<navLinks.length;i++)navLinks[i].addEventListener("click",function(){var a=document.getElementsByClassName("active");a[0].className=a[0].className.replace(" active",""),this.className+=" active"});
+"use strict";baguetteBox.run(".gallery");
